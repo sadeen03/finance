@@ -169,7 +169,7 @@ if analyze_btn:
 
     # ── ML inference ────────────────────────────────────────────────────────
     approval_prob  = model.predict_proba(X_input)[0][1]
-    decision_label = "APPROVED" if approval_prob >= 0.5 else "DENIED"
+    decision_label = "APPROVED" if approval_prob >= 0.3 else "DENIED"
     is_approved    = decision_label == "APPROVED"
 
     # ── Top section: metrics ────────────────────────────────────────────────
