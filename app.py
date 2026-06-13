@@ -146,7 +146,7 @@ with st.sidebar:
 # ═══════════════════════════════════════════════════════════════════════════════
 # MAIN PANEL
 # ═══════════════════════════════════════════════════════════════════════════════
-st.title("Credit Risk Analyzer")
+st.title("Credit Risk Analyzer By Sadeen")
 st.caption("Teaching demo — Scikit-Learn + OpenAI | adjust sliders and click Analyze")
 
 
